@@ -1,3 +1,3 @@
 export const environment = {
-  serverAddress: 'https://localhost:44379/'
+  serverAddress: 'http://medibooker2-001-site1.etempurl.com/'
 };
