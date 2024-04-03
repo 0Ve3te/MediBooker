@@ -1,52 +1,92 @@
-<div align="center">
-
 # MediBooker
 
-</div>
+MediBooker 🧑‍⚕️ is your top choice for easy online scheduling of doctor appointments. With its user-friendly interface and helpful features, it makes booking appointments simple, ensuring a seamless experience for both doctors and patients.
 
-<div align="right">
+## Features
 
-#### Autorzy: &emsp;&emsp;&emsp;&nbsp;&nbsp;
-##### Szymon Cieśla  &emsp;&emsp;&nbsp;
-##### Szymon Zielonka  &emsp;
+- **User Roles:** 🧑‍⚕️ The application supports role-based access control with distinctions between doctors and staff members. Administrators have the authority to create accounts for both doctors and staff.
+  
+- **Doctor Scheduling:** 📅 Staff members can manage doctors' work schedules and set their working hours according to the needs.
 
-</div>
+- **Interactive Calendar:** 🗓️ Users can easily browse through an interactive calendar to choose the date and doctor they prefer for booking appointments.
+
+- **Reservation Form:** ✍️ A simple yet user-friendly form makes it easy for users to schedule appointments.
+
+- **Email Notifications:** 📧 The app sends users an email after they schedule an appointment, giving them an easy way to cancel if it's necessary.
+
+- **Token Authentication:** 🔒 Security is paramount. The application utilizes token-based authentication to ensure secure access and data protection.
+
+## Technologies Used
+
+- **Backend:** .NET 7.0, C#, Entity Framework Core, MSSQL
+- **Frontend:** Angular 15, Typescript, Bootstrap 5
+
+## Database
+![Database Diagram](https://i.imgur.com/e3po6B0.png)
+
+## Screenshots
+
+### Home Page
+Home page interface.
+![Home Page](https://i.imgur.com/iSApW8a.png)
+
+### User Creation
+Demonstrating the user creation process.
+![User Creation](https://i.imgur.com/urbQdxB.png)
+
+### Email with Login Data
+Illustrating an email containing login information.
+![Email with Login Data](https://i.imgur.com/hIEhaLd.png)
+
+### Profile Editing
+Displaying the profile editing functionality.
+![Profile Editing](https://i.imgur.com/QI44NFS.png)
+
+### User List
+Showcasing the list of users.
+![User List](https://i.imgur.com/sI9qQN4.png)
+
+### Schedule Creation
+Presenting the schedule creation interface.
+![Schedule Creation](https://i.imgur.com/rh62gUT.png)
+
+### Notification
+Representing a notification in the application.
+![Notification](https://i.imgur.com/ZqqQTvC.png)
+
+### Doctor's Schedule
+Displaying the schedule of a doctor.
+![Doctor's Schedule](https://i.imgur.com/NkatGUq.png)
+
+### Schedule Details
+Providing details of a schedule entry.
+![Schedule Details](https://i.imgur.com/5SPzne8.png)
+
+### Reservation Panel
+Presenting the reservation panel interface.
+![Reservation Panel](https://i.imgur.com/BA51EqJ.png)
+
+### Reservation Form
+Showing the reservation form.
+![Reservation Form](https://i.imgur.com/2BRppmW.png)
+
+### Reservation Confirmation
+Confirming a successful reservation.
+![Reservation Confirmation](https://i.imgur.com/eVaFNKZ.png)
+
+### Email with Reservation Data
+Displaying an email containing reservation details.
+![Email with Reservation Data](https://i.imgur.com/Pyrds5g.png)
+
+### Reservation Cancellation
+Demonstrating the cancellation of a reservation.
+![Reservation Cancellation](https://i.imgur.com/aiielAZ.png)
+
+### List of Reservations for Doctor
+Presenting the list of reservations for a doctor.
+![List of Reservations for Doctor](https://i.imgur.com/5S321v1.png)
 
 
-<div align="center">
+## License
 
-&nbsp;
-
-| Data zajęć | Opis realizowanych zagadnień |
-| --- | --- |
-| 20.02.2023 | CV, Propozycja projektów, Wybór projektu |
-| 27.02.2023 | Harmonogram, Os czasu (kamienie milowe), Dokładny podział obowiązków, Skrócona nazwa bądź nazwa projektu |
-| 06.03.2023 | Zainstalowanie środowiska programistycznego, Stworzenie projektu na GitLabie, Dodanie wszystkich członków zespołu do projektu, Praca nad bannerem, Utworzenie repozytorium |
-| 13.03.2023 | Rozpoczęcie prac nad projektem (Rest API), Stworzenie wzoru dokumentacji, Rozpoczęcie pracy nad systemem roli użytkowników, Praca nad bannerem |
-| 20.03.2023 | Stworzenie bazy danych, Dalsze prace nad rolami użytkowników, Prowadzenie dokumentacji |
-| 27.03.2023 | Testowanie poprawności endpointow w Swaggerze, Połączenie bazy danych z projektem, Prowadzenie dokumentacji |
-| 03.04.2023 | Utworzenie projektu w Angularze, Dodanie polityki Cors, Dalsze prace nad Rest API, Prowadzenie dokumentacji |
-| 17.04.2023 | Rozpoczęcie prac nad widokami, Wstępna koncepcja kalendarza, Prowadzenie dokumentacji |
-| 24.04.2023 | Stworzenie strony użytkownika, Prace nad widokami, Prace nad kalendarzem, Prowadzenie dokumentacji |
-| 08.05.2023 | Stworzenie strony moderatora, Prace nad widokami, Prowadzenie dokumentacji |
-| 15.05.2023 | Stworzenie strony lekarza, Prace nad widokami, Prowadzenie dokumentacji |
-| 22.05.2023 | Stworzenie strony pracownika, Finalizacja pracy nad projektem, Prowadzenie dokumentacjiHarmonogram MediBooker:|
-| 29.05.2023 | Testowanie aplikacji, Prace konserwacyjne, Finalizacja pracy nad projektem, Prowadzenie dokumentacji |
-| 05.06.2023 | Testowanie aplikacji, Prace konserwacyjne, Finalizacja pracy nad projektem, Prowadzenie dokumentacji |
-| 12.06.2023 | Sfinalizowanie dokumentacji, Końcowe zaliczenie projektu |
-</div>
-&nbsp;
-
-# Work Breakdown Structure
-
-&nbsp;
-
-<div align="center">
-
-#### Szymon Cieśla - Developer
-#### Szymon Zielonka - Developer
-
-&nbsp;
-
-
-</div>
+This project is licensed under the [MIT License](LICENSE).
