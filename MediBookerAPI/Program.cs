@@ -36,8 +36,8 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
     x.TokenValidationParameters = new TokenValidationParameters
     {
         ClockSkew = new System.TimeSpan(0, 0, 0),
-        ValidAudience = "https://localhost:44379/",
-        ValidIssuer = "https://localhost:44379/",
+        ValidAudience = "https://localhost:7086/",
+        ValidIssuer = "https://localhost:7086/",
         IgnoreTrailingSlashWhenValidatingAudience = true,
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(builder.Configuration.GetSection("TokenSettings:TokenKey").Value)),
         ValidateIssuerSigningKey = true,
