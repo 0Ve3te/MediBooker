@@ -18,8 +18,8 @@ MediBooker 🧑‍⚕️ is your top choice for easy online scheduling of doctor
 
 ## Technologies Used
 
-- **Backend:** .NET 7.0, C#, Entity Framework Core, MSSQL
-- **Frontend:** Angular 15, Typescript, Bootstrap 5
+- **Backend:** .NET 7.0, C#, Entity Framework Core, MSSQL.
+- **Frontend:** Angular 15, Typescript, Bootstrap 5.
 
 ## Database
 ![Database Diagram](https://i.imgur.com/e3po6B0.png)
