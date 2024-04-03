@@ -28,7 +28,7 @@ namespace MediBookerAPI.Services
 
         public async Task<string> GenerateBearerToken(string userId)
         {
-            var expiry = DateTimeOffset.Now.AddMinutes(1);
+            var expiry = DateTimeOffset.Now.AddMinutes(10);
             IEnumerable<Claim> userClaims = await GetClaimsForUser(userId);
             return CreateToken(expiry, userClaims);
         }
@@ -50,8 +50,8 @@ namespace MediBookerAPI.Services
                 claims: claims,
                 notBefore: DateTime.Now,
                 expires: expiryDate.DateTime,
-                audience: "https://localhost:44379/",
-                issuer: "https://localhost:44379/",
+                audience: "https://localhost:7086/",
+                issuer: "https://localhost:7086/",
                 signingCredentials: credentials);
 
             return new JwtSecurityTokenHandler().WriteToken(securityToken);
@@ -74,6 +74,7 @@ namespace MediBookerAPI.Services
                 if(user.IsAuthorized == true)
                 {
                     claims.Add(new Claim("name", user.Name));
+                    claims.Add(new Claim("surName", user.Surname));
                     //claims.Add(new Claim("userImg", Convert.ToBase64String(user.Image)));
                     claims.Add(new Claim("userImg", user.userImg));
                 }
