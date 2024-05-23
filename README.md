@@ -2,6 +2,10 @@
 
 MediBooker 🧑‍⚕️ is your top choice for easy online scheduling of doctor appointments. With its user-friendly interface and helpful features, it makes booking appointments simple, ensuring a seamless experience for both doctors and patients.
 
+## Login Credentials
+- **Username:** `Moderator@example.com`
+- **Password:** `Moderator123!`
+
 ## Features
 
 - **User Roles:** 🧑‍⚕️ The application supports role-based access control with distinctions between doctors and staff members. Administrators have the authority to create accounts for both doctors and staff.
